@@ -17,11 +17,11 @@ import Navbar from "./components/Navbar";
  */
 export default {
   name: "App",
-  props: ["Support Page"],
+  components: {
+    Navbar,
+  },
   data() {
-    return {
-      Navbar,
-    };
+    return {};
   },
 };
 </script>
